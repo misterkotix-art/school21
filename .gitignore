@@ -1,0 +1,32 @@
+# macOS and editor files
+.DS_Store
+._*
+*~
+*.swp
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Build outputs and logs
+build/
+dist/
+*.egg-info/
+*.log
+
+# Keep submitted notebooks, their outputs and required datasets tracked.
